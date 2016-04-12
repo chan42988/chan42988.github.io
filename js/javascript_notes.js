@@ -114,19 +114,30 @@ var fruits = [ ["grape", "orange"], ["strawberry", "banana"] ];
 console.log(fruits[0][1],fruits[1][1]);
 
 //3.
+x=5
 if(x<10){
   alert("variable is less than 10");
 }else{
   console.log("Your variable is " + x + " and is greater than 10");
 }
+//alerts and says "Your variable is less than 10"
+
+//4.
+x=11
+if(x<10){
+  alert("variable is less than 10");
+}else{
+  console.log("Your variable is " + x + " and is greater than 10");
+}
+//says "Your variable is 11 and is greater than 10"
 
 //Additonal Problem
-function doors(v_door){
-  if(v_door === "door1"){
+function doors(v_door)
+  if(door1){
     alert("whammy!");
-  }else if(v_door == "door2"){
+  }else if{(door2){
     alert("you win money!");
-  }else{
+  }else(door3){
     alert("nothing for you!");
   }
 
