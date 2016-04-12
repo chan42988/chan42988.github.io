@@ -133,45 +133,38 @@ if(x<10){
 
 //Additonal Problem
 function doors(v_door)
-  if(door1){
-    alert("whammy!");
-  }else if{(door2){
-    alert("you win money!");
-  }else(door3){
-    alert("nothing for you!");
-  }
+if(door1){
+  alert("whammy!");
+}else if{(door2){
+  alert("you win money!");
+}else(door3){
+  alert("nothing for you!");
+}
 
-  //scopes
-  //must create functions in order to creat scopes
-  //how to create a global scope
-  //first set variable
-  var z = 1;
-  //then create function globally
-  function asd(){
-    console.log(z);
-  }
-  //how to create local scope
-  //set global variable
-  var z = 3
-  //create function locally
-  function asd(z){
-    console.log(z);
-  }
-  //input
-  asd(z)
-  //you get
-  10
-  //input
+//scopes
+//must create functions in order to creat scopes
+//how to create a global scope
+//first set variable
+var z = 1;
+//then create function globally
+function asd(){
   console.log(z);
-  //you get 
-  3 //because your local scope did not affect your global scope
+}
+//how to create local scope
+//set global variable
+var z = 3
+//create function locally
+function asd(z){
+  console.log(z);
+}
+//input
+asd(z)
+//you get
+10
+//input
+console.log(z);
+//you get 
+3 //because your local scope did not affect your global scope
 
-  //if statements within local scope or block scopes are the same, they are not affected globally
-  //function scope - argument only availabe within the function it gets declared in (local scope)
-
-
-
-
-
-
-
+//if statements within local scope or block scopes are the same, they are not affected globally
+//function scope - argument only availabe within the function it gets declared in (local scope)
